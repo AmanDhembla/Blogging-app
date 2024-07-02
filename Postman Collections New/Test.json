@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "Request 23",
+			"name": "Request 1",
 			"id": "cf4d1a7a-38a9-4d97-87e4-0d9dbaafeb14",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -14,7 +14,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "google.com"
+				"url": "google.com/test"
 			},
 			"response": []
 		}
