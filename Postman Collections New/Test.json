@@ -12,11 +12,26 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "Post",
+				"method": "GET",
 				"header": [],
 				"url": "google.com/test"
 			},
-			"response": []
+			"response": [
+				{
+					"id": "f2381fbf-53fc-4307-b084-fbf29ac4b59b",
+					"name": "Request 1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "google.com/test"
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"responseTime": null,
+					"body": null
+				}
+			]
 		}
 	]
 }
