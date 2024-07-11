@@ -30,6 +30,32 @@
 					"body": null
 				}
 			]
+		},
+		{
+			"name": "R2",
+			"id": "a0c8649d-2c86-4769-bb8f-083203c51406",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"id": "2702d184-2b54-44a0-952d-b59b1ebfdde5",
+					"name": "E1",
+					"originalRequest": {
+						"method": "GET",
+						"header": []
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"responseTime": null,
+					"body": null
+				}
+			]
 		}
 	]
 }
