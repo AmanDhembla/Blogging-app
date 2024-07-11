@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "b95e7669-092d-451a-9cf2-b4acf9120c6d",
-		"name": "New Collection",
+		"name": "New Collection Asif",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -13,7 +13,23 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "google.com?a=b",
+					"host": [
+						"google",
+						"com"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "b",
+							"description": "testing",
+							"type": "text"
+						}
+					]
+				},
+				"description": "\n### **Retrieve** Data Endpoint\n\nThis endpoint allows you to retrieve data using an HTTP GET request.\n\n#### Request\n\nThe request does not require a request body. It only requires the URL endpoint to be specified.\n\n- URL: `/endpoint`\n\n#### Response\n\nThe response will be in JSON format and will adhere to the following schema:\n\n```json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"key1\": {\n      \"type\": \"string\"\n    },\n    \"key2\": {\n      \"type\": \"number\"\n    },\n    ...\n  }\n}\n```\n"
 			},
 			"response": [
 				{
@@ -21,9 +37,10 @@
 					"name": "E1",
 					"originalRequest": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": ""
 					},
-					"_postman_previewlanguage": null,
+					"_postman_previewlanguage": "Text",
 					"header": null,
 					"cookie": [],
 					"responseTime": null,
@@ -32,14 +49,15 @@
 			]
 		},
 		{
-			"name": "R2",
+			"name": "R3",
 			"id": "a0c8649d-2c86-4769-bb8f-083203c51406",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "POST",
-				"header": []
+				"header": [],
+				"url": ""
 			},
 			"response": [
 				{
@@ -47,9 +65,10 @@
 					"name": "E2",
 					"originalRequest": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": ""
 					},
-					"_postman_previewlanguage": null,
+					"_postman_previewlanguage": "Text",
 					"header": null,
 					"cookie": [],
 					"responseTime": null,
