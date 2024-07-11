@@ -13,7 +13,8 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": ""
 			},
 			"response": [
 				{
@@ -21,9 +22,10 @@
 					"name": "E1",
 					"originalRequest": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": ""
 					},
-					"_postman_previewlanguage": null,
+					"_postman_previewlanguage": "Text",
 					"header": null,
 					"cookie": [],
 					"responseTime": null,
@@ -39,7 +41,8 @@
 			},
 			"request": {
 				"method": "POST",
-				"header": []
+				"header": [],
+				"url": ""
 			},
 			"response": [
 				{
@@ -47,9 +50,10 @@
 					"name": "E2",
 					"originalRequest": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": ""
 					},
-					"_postman_previewlanguage": null,
+					"_postman_previewlanguage": "Text",
 					"header": null,
 					"cookie": [],
 					"responseTime": null,
