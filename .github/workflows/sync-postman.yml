@@ -25,7 +25,7 @@ jobs:
 
         # Run the Postman API to update the collection
         COLLECTION_UID="33554932-b95e7669-092d-451a-9cf2-b4acf9120c6d"
-        GITHUB_COLLECTION_PATH="./Collections/TestCollection.json"
+        GITHUB_COLLECTION_PATH="./collections/TestCollection.json"
         
         curl --location --request PUT "https://api.getpostman.com/collections/$COLLECTION_UID" \
         --header "x-api-key: $POSTMAN_API_KEY" \
