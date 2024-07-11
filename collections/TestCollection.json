@@ -29,7 +29,7 @@
 						}
 					]
 				},
-				"description": "\n### **Retrieve** Data Endpoint\n\nThis endpoint allows you to retrieve data using an HTTP GET request.\n\n#### Request\n\nThe request does not require a request body. It only requires the URL endpoint to be specified.\n\n- URL: `/endpoint`\n\n#### Response\n\nThe response will be in JSON format and will adhere to the following schema:\n\n```json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"key1\": {\n      \"type\": \"string\"\n    },\n    \"key2\": {\n      \"type\": \"number\"\n    },\n    ...\n  }\n}\n```\n"
+				"description": "\n### **Retrieve** Data Endpoint\n\nThis endpoint allows you to retrieve data using an HTTP GET request.\n\n#### Request\n\nThe request does not require a request body. It only **requires the URL endpoint to be specified.\n\n- URL: `/endpoint`\n\n#### Response\n\nThe response will be in JSON format and will adhere** to the following schema:\n\n```json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"key1\": {\n      \"type\": \"string\"\n    },\n    \"key2\": {\n      \"type\": \"number\"\n    },\n    ...\n  }\n}\n```\n"
 			},
 			"response": [
 				{
